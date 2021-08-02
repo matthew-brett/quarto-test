@@ -1,4 +1,6 @@
-# Code in list
+---
+title: "rmarkdown-test"
+---
 
 This is an Rmd document.
 
