@@ -10,3 +10,6 @@ rmd: code_in_list_rmd.Rmd
 
 md: code_in_list_rmd.Rmd
 	Rscript -e "rmarkdown::render('$<', output_file = 'just_rmarkdown.html')"
+
+clean:
+	rm -rf *.html *_files/
